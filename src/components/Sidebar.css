@@ -1,0 +1,68 @@
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+
+.sidebar img.profile-photo {
+  width: 150px; /* Larger profile photo */
+  height: 150px;
+  border-radius: 50%; /* Circular profile photo */
+  border: 2px solid #ccc;
+  padding: 5px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.sidebar p {
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  display: block;
+  padding: 5px;
+  border: 1px solid transparent; /* Default border */
+  border-radius: 5px; /* Rounded edges */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  background-color: #e0e0e0;
+  border-color: #007bff; /* Add border color on hover */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+  }
+
+  .sidebar ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sidebar ul li {
+    margin: 5px 0;
+  }
+}
