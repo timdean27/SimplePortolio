@@ -26,9 +26,24 @@ const App: React.FC = () => {
           <section id="roles-searching">
             <h3>Roles I'm Searching For</h3>
             <ul>
-              <li id="full-stack-developer">Full Stack Developer</li>
-              <li id="automation-engineer">Automation Engineer</li>
-              <li id="software-quality-analyst">Software Quality Analyst</li>
+              <li id="full-stack-developer">
+                Full Stack Developer
+                <p>
+                  With extensive experience in JavaScript, TypeScript, React, Django, and SQL, I have successfully developed and maintained several full-stack applications. My passion for creating seamless user experiences and robust backend systems makes me a great fit for this role.
+                </p>
+              </li>
+              <li id="automation-engineer">
+                Automation Engineer
+                <p>
+                  I have a strong background in automation, including hands-on experience with UiPath and Selenium. My ability to streamline processes and improve efficiency through automation aligns well with the responsibilities of an Automation Engineer.
+                </p>
+              </li>
+              <li id="software-quality-analyst">
+                Software Quality Analyst
+                <p>
+                  My keen attention to detail and thorough understanding of software development lifecycle (SDLC) enable me to identify and troubleshoot application issues effectively. I have a track record of improving software quality through rigorous testing and quality assurance practices.
+                </p>
+              </li>
             </ul>
           </section>
           <section id="projects-working-on">
