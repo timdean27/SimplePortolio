@@ -6,7 +6,7 @@ import SmartScrollSidebar from './components/SmartScrollSidebar';
 import FooderGif from './assets/Fooder.gif';
 import ChurchConcertGif from './assets/ChurchConcert.gif';
 import CheckersAppGif from './assets/CheckersApp.gif';
-import SneakerAppGif from './assets/SneakerApp.gif';
+// import SneakerAppGif from './assets/SneakerApp.gif';
 import './index.css';
 
 const App: React.FC = () => {
@@ -68,13 +68,6 @@ const App: React.FC = () => {
                 <div className="project-text">
                   <p>Checkers</p>
                   <p>A classic checkers game built with React and TypeScript.</p>
-                </div>
-              </div>
-              <div className="project-item">
-                <img src={SneakerAppGif} alt="Sneaker App Project" className="project-image" />
-                <div className="project-text">
-                  <p>Sneaker App</p>
-                  <p>An app for sneaker enthusiasts to track and buy the latest releases.</p>
                 </div>
               </div>
             </div>

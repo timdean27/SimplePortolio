@@ -6,6 +6,8 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background-color: #303641; 
+  color: #f0f0f0bd; 
 }
 
 .app {
@@ -15,30 +17,34 @@ body {
 }
 
 header {
-  background-color: #282c34;
+  background-color: #3b414d; 
   padding: 1rem;
-  color: white;
+  color: #f0f0f0bd; 
   text-align: center;
 }
 
 .main-content {
+  background-color: #3b414d; 
   display: flex;
   flex: 1;
   flex-direction: column;
   padding: 20px; /* Adjust padding for mobile */
+  color: #f0f0f0bd; 
 }
 
 main {
+  background-color: #3b414d; 
   padding: 1rem;
   margin-left: 270px; /* Adjust to avoid overlap with left sidebar */
   margin-right: 270px; /* Adjust to avoid overlap with right sidebar */
   flex: 1;
+  color: #f0f0f0bd; 
 }
 
 footer {
-  background-color: #282c34;
+  background-color: #3b414d; 
   padding: 1rem;
-  color: white;
+  color: #f0f0f0bd; 
   text-align: center;
 }
 
