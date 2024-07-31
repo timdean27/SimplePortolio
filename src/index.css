@@ -1,7 +1,8 @@
 body {
   font-family: Arial, sans-serif;
+  padding-right: 10vw;
+  padding-left: 10vw;
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
