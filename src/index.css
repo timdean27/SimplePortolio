@@ -86,14 +86,20 @@ section {
 }
 
 .project-image {
-  max-width: 150px; /* Adjust width to make the images smaller */
-  height: auto;
+  max-width: 150px; /* Fixed width */
+  height: auto; /* Adjust height to maintain aspect ratio */
   display: block;
-  object-fit: contain; /* Ensure the image fits within the max-width */
-  border: 1px solid #ccc; /* Add border to images */
-  border-radius: 4px; /* Add rounded corners to images */
+  object-fit: contain; /* Ensure the image fits within the max-width without stretching */
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
+/* Example for responsive image in project item */
+.project-item img {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image covers the given dimension without stretching */
+}
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
   .main-content {

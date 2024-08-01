@@ -12,17 +12,16 @@
   top: 0;
   box-sizing: border-box;
 }
-
 .sidebar img.profile-photo {
-  width: 150px; /* Larger profile photo */
-  height: 150px;
+  width: 150px; /* Fixed width */
+  height: auto; /* Adjust height to maintain aspect ratio */
   border-radius: 50%; /* Circular profile photo */
   border: 2px solid #ccc;
   padding: 5px;
   display: block;
   margin: 0 auto 10px;
+  object-fit: cover; /* Ensures the image covers the given dimension without stretching */
 }
-
 .sidebar p {
   text-align: center;
 }
