@@ -19,7 +19,6 @@ const App: React.FC = () => {
         <main>
           <section id="about-me">
             <h3>About Me</h3>
-            <h3>About Me</h3>
             <p>
               Hello! I'm Timothy Dean, a passionate Software Engineer with a
               strong interest in automation and testing. I graduated from Stony
@@ -29,7 +28,7 @@ const App: React.FC = () => {
               accounting sectors.
             </p>
             <p>
-              I completed General Assembly's immersive software engineering
+              I've completed General Assembly's immersive software engineering
               program. Professionally, I've worked extensively with Python,
               JavaScript, and TypeScript, building front-end applications with
               React, creating APIs using Django and Express, and testing using
